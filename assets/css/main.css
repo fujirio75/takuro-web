@@ -1,0 +1,64 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	color: #222;
+	background: #e7ecf3;
+background: -moz-linear-gradient(-45deg, #e7ecf3 0%, #b5b4c7 100%);
+background: -webkit-linear-gradient(-45deg, #e7ecf3 0%,#b5b4c7 100%);
+background: linear-gradient(135deg, #e7ecf3 0%,#b5b4c7 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7ecf3', endColorstr='#b5b4c7',GradientType=1 );
+}
+
+header {
+	padding: 0 60px;
+	width: 100%;
+	height: 25%;
+	background: #fff;
+}
+
+.borders div {
+	position: fixed;
+	background: #fff;
+}
+
+.borders .top,.borders .bottom {
+	width: 100%;
+	height: 40px;
+}
+
+.borders .right,.borders .left {
+	width: 40px;
+	height: 100%;
+}
+
+.borders .top {
+	top: 0;
+}
+
+.borders .right {
+	right: 0;
+}
+
+.borders .bottom {
+	bottom: 0;
+}
+
+.borders .left {
+	left: 0;
+}
+
+
+.main-visual {
+	width: 100%;
+	height: 100%;
+}
+
+.main-visual .logo {
+	margin: 0 auto;
+	width: 200px;
+}
+
+.main-visual .logo img {
+	width: 200px;
+}
+

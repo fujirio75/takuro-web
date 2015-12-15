@@ -5,35 +5,50 @@
 	<title>TAKURO NISHIMURA</title>
 	<meta name="description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="vendors/sanitize.css">
-	<link rel="stylesheet" type="text/css" href="vendors/sanitize.scss">
-	<link rel="stylesheet" type="text/css" href="common/css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css"
+	<link rel="stylesheet" type="text/css" href="assets/css/sanitize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/sanitize.scss">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 
 <body>
-<header>
-	<h1 id="logo"><img src="common/img/logo.svg"></h1>
-	<nav>
-		<ul class="cf">
-			<li><a href="news/">NEWS</a></li>
-			<li><a href="profile/">PROFILE</a></li>
-			<li><a href="biography/">BIOGRAPHY</a></li>
-			<li><a href="discography/">DISCOGRAPHY</a></li>
-			<li><a href="videos/">VIDEOS</a></li>
-			<li><a href="contact/">CONTACTS</a></li>
-		</ul>
-	</nav>
-</header>
 
-<main>
-	<section class="slider">
-		<img src="img/slider1.img">
-		<img src="img/slider2.img">
-		<img src="img/slider3.img">
-		<img src="img/slider4.img">
-	</section>
+	<div class="borders">
+		<div class="top"></div>
+		<div class="left"></div>
+		<div class="bottom"></div>
+		<div class="right"></div>
+	</div>
 
+	<header id="js-accordion" class="header">
+
+        <div class="header__heading">
+            <h1 class="logo"><a href="/assets/images/logo.png" alt="ロゴ"></a></h1>
+            <span class="menu-button">
+            	<i></i>
+            </span>
+        </div>
+
+        <nav class="nav-content">
+            <ul>
+                <li><a href="news/">NEWS</a></li>
+                <li><a href="bio/">BIO</a></li>
+                <li><a href="disco/">DISCO</a></li>
+                <li><a href="video/">VIDEO</a></li>
+                <li><a href="music/">MUSIC</a></li>
+            </ul>
+        </nav>
+	</header>
+	<div id="js-cover"></div>
+
+	<main>
+
+		<section class="main-visual">
+			<div class="logo"><img src="assets/img/main-visual_logo.png"></div>
+		</section>
+
+
+
+	<!--
 	<section class="primary-post">
 		<h3>NEWS</h3>
 		<article>
@@ -65,10 +80,10 @@
 
 	<section class="">
 	</section>
+-->
 
 
-
-</main>
+	</main>
 
 
 </body>
